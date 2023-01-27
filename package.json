@@ -1,12 +1,37 @@
 {
   "name": "react-icon-picker",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "UI component for selecting an icon from a predefined set of icons sourced from @iconify/json.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsup src/index.tsx",
+    "dev": "tsup src/index.tsx --watch",
+    "dev:website": "turbo run dev --filter=website..."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "react",
+    "picker",
+    "icon-picker",
+    "icon",
+    "ui",
+    "iconify"
+  ],
+  "author": "Purple IO <support@purple.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
+    "react": "^18.2.0",
+    "tsup": "^6.5.0",
+    "turbo": "^1.7.0",
+    "typescript": "^4.9.4"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
 }
