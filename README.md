@@ -33,7 +33,7 @@ import IconPicker from "@eszqsc112/react-icon-picker";
 
 ## Example
 
-```ts
+```tsx
 import IconPicker from "@eszqsc112/react-icon-picker";
 import { useState } from "react";
 
@@ -58,8 +58,8 @@ export default Editor;
 ## Development Guide
 
 - The project is built with [TypeScript](https://www.typescriptlang.org/)
-- The website directory is a workspace that uses [Next.js](https://nextjs.org/) for testing and documentation
-- The project uses [TurboRepo](https://turborepo.org/) for easy management of multiple packages in a monorepo.
+- The `website` directory is a workspace that uses [Next.js](https://nextjs.org/) for testing and documentation
+- The project uses [TurboRepo](https://turborepo.org/) for easy management of multiple packages in a monorepo
 - Uses [pnpm](https://pnpm.js.org/) for package management
 
 ### Commands
