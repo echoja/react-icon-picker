@@ -1,6 +1,6 @@
 "use client";
 
-import IconPicker from "@echoja/react-icon-picker";
+import IconPicker from "@eszqsc112/react-icon-picker";
 import { useState } from "react";
 
 function Editor() {
