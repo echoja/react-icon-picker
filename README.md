@@ -54,3 +54,17 @@ function Editor() {
 
 export default Editor;
 ```
+
+## Development Guide
+
+- The project is built with [TypeScript](https://www.typescriptlang.org/)
+- The website directory is a workspace that uses [Next.js](https://nextjs.org/) for testing and documentation
+- The project uses [TurboRepo](https://turborepo.org/) for easy management of multiple packages in a monorepo.
+- Uses [pnpm](https://pnpm.js.org/) for package management
+
+### Commands
+
+- `pnpm run dev` starts the development server
+- `pnpm run build` builds the project for production
+- `pnpm run test` runs tests
+- `pnpm run lint` runs linting
