@@ -14,7 +14,9 @@ const ReactIconPicker: React.FC<IReactIconPickerProps> = ({
   return (
     <ul>
       {icons.map((icon) => (
-        <li onClick={() => onSelect(icon)}>{icon}</li>
+        <li style={{ color: "blue" }} onClick={() => onSelect(icon)}>
+          {icon}
+        </li>
       ))}
     </ul>
   );

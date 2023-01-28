@@ -13,34 +13,34 @@ UI component for selecting an icon from a predefined set of icons sourced from [
 ## Installation
 
 ```bash
-npm install react-icon-picker
+npm install @echoja/react-icon-picker
 ```
 
 ## Usage
 
 ```ts
-import IconPicker from "react-icon-picker";
+import IconPicker from "@echoja/react-icon-picker";
 
 <IconPicker icons={["icon1", "icon2", "icon3"]} onSelect={handleSelect} />;
 ```
 
 ## Props
 
-| Prop     | Type     | Description                                              |
-| -------- | -------- | -------------------------------------------------------- |
-| `icons`    | `string[]`    | A list of predefined icons to be displayed in the picker |
+| Prop       | Type       | Description                                              |
+| ---------- | ---------- | -------------------------------------------------------- |
+| `icons`    | `string[]` | A list of predefined icons to be displayed in the picker |
 | `onSelect` | `Function` | Callback function to handle the selected icon            |
 
 ## Example
 
 ```ts
+import IconPicker from "@echoja/react-icon-picker";
 import { useState } from "react";
-import IconPicker from "react-icon-picker";
 
-function App() {
-  const [selectedIcon, setSelectedIcon] = useState(null);
+function Editor() {
+  const [selectedIcon, setSelectedIcon] = useState<string | null>(null);
 
-  const handleSelect = (icon) => {
+  const handleSelect = (icon: string) => {
     setSelectedIcon(icon);
   };
 
@@ -52,5 +52,5 @@ function App() {
   );
 }
 
-export default App;
+export default Editor;
 ```
