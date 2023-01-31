@@ -1,6 +1,6 @@
 {
   "name": "@eszqsc112/react-icon-picker",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "UI component for selecting an icon from a predefined set of icons sourced from @iconify/json.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
