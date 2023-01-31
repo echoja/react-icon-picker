@@ -1,5 +1,15 @@
 # React Icon Picker
 
+## ⚠️⚠️⚠️ Work in Progress ⚠️⚠️⚠️
+
+This repository is currently a work in progress and is **not ready** for public use. The package should not be downloaded or used in its current state.
+
+We will remove this notice and make the package available once it has been thoroughly tested and all known issues have been resolved.
+
+Thank you for your understanding.
+
+---
+
 UI component for selecting an icon from a predefined set of icons sourced from [@iconify/json](https://www.npmjs.com/package/@iconify/json). Developers can specify the list of predefined icons that will be displayed in the picker.
 
 ## Features
