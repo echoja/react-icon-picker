@@ -11,7 +11,8 @@
   "scripts": {
     "build": "tsup src/index.tsx",
     "dev": "tsup src/index.tsx --watch",
-    "dev:website": "turbo run dev --filter=website..."
+    "dev:website": "turbo run dev --filter=website...",
+    "build:website": "turbo run build --filter=website..."
   },
   "keywords": [
     "react",
@@ -33,5 +34,8 @@
   },
   "peerDependencies": {
     "react": "^18.2.0"
+  },
+  "dependencies": {
+    "@iconify/json": "^2.2.18"
   }
 }

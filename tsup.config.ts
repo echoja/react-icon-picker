@@ -3,6 +3,7 @@ import { defineConfig } from "tsup";
 export default defineConfig({
   minify: true,
   target: "es2018",
+  bundle: true,
   external: ["react"],
   sourcemap: true,
   dts: true,

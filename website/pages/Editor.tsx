@@ -1,10 +1,17 @@
 "use client";
 
 import IconPicker from "@eszqsc112/react-icon-picker";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function Editor() {
   const [selectedIcon, setSelectedIcon] = useState<string | null>(null);
+
+  useEffect(() => {
+    console.log("from Next.js!");
+    // console.log("academicons", academicons);
+    // console.log("akarIcons", akarIcons);
+    // console.log("antDesign", antDesign);
+  }, []);
 
   const handleSelect = (icon: string) => {
     setSelectedIcon(icon);

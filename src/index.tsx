@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+export { academicons, akarIcons, antDesign, bx, fa6Regular } from "./icons";
 
 export interface IReactIconPickerProps {
   icons: string[];
@@ -14,7 +15,7 @@ const ReactIconPicker: React.FC<IReactIconPickerProps> = ({
   return (
     <ul>
       {icons.map((icon) => (
-        <li style={{ color: "blue" }} onClick={() => onSelect(icon)}>
+        <li key={icon} style={{ color: "blue" }} onClick={() => onSelect(icon)}>
           {icon}
         </li>
       ))}
